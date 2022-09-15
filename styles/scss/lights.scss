@@ -1,0 +1,28 @@
+// ------------------------ BACKGROUND LIGHTS
+
+.light-container {
+    opacity: 0.7;
+}
+.light {
+    position: absolute;
+    top: -300px;
+    width: $width;
+    height: $height;
+    overflow:hidden;
+    background: url("/styles/assets/faisceau/faisceau.png") center/cover no-repeat;
+    // clip-path: polygon(0 1%, 100% 41%, 100% 100%, 95% 100%, 0 24%);
+}
+
+// LUMIERE PAR DESSUS LES ICONES
+  .front-light {
+    clip-path: polygon(0 1%, 100% 41%, 100% 100%, 95% 100%, 0 24%);
+    background: linear-gradient(147deg, rgba(255, 255, 255, 0.753) 11%, rgba(255,255,255,0) 100%);
+    position: absolute;
+    opacity: 0.7;
+    top: -160px;
+    // left: 0px;
+    width: $width;
+    height: $width;
+    overflow:hidden;
+  }
+// ------------------------ EO BACKGROUND LIGHTS

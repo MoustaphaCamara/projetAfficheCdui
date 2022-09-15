@@ -1,0 +1,41 @@
+// ------------------------ SECTION 1
+#section1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    height: 200px;
+}
+#title {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+#retro, #pixel, #annee {
+    transform: translateX(435px);
+    animation: title 3s forwards;
+}
+
+#retro {
+    width: 80%;
+    padding-right: 50px;
+    animation-delay: 1000ms;
+}
+#pixel {
+    width: 60%;
+    animation-delay: 2000ms;
+}
+#annee {
+    width: 30%;
+    max-width: 150px;
+    padding-right: 30px;
+    animation-delay: 3000ms;
+}
+@keyframes title {
+    to {
+
+        transform: translateX(0px);
+    }
+}
+// ------------------------ EO SECTION 1

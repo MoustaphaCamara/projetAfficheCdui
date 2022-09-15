@@ -1,0 +1,21 @@
+// ------------------------ FOOTER
+footer {
+    position: fixed;
+    width: 70vh;
+    min-width: 70vh;
+    bottom: 20px;
+    display: flex;
+}
+    .footer_container {
+        width: 90%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        & img {
+            width: 75px;
+        }
+        & .right_part {
+            align-self: flex-end;
+        }
+    }
+// ------------------------ EO FOOTER

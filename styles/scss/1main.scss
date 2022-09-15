@@ -1,0 +1,51 @@
+
+// ------------------------ SETTINGS
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: $body-color;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+h1 {
+    display: none;
+}
+.affiche-container {
+    background-color: $div-bg;
+    width: 70vh;
+    min-width: 646px;
+    max-width: 646px;
+    height: 100vh;
+    // width: 646px;
+    // height: 902px;
+    margin: auto;
+    overflow: hidden;
+}
+
+// FONTS
+// header MUSEUM font 
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: 'AloneOnEarth';
+    src: url("../assets/Fonts/Alone On Earth.otf");
+}
+// EO FONTS
+h2 {
+    font-family: 'Familjen Grotesk';
+    font-weight: 700;
+}
+h3 {
+    font-family: 'AloneOnEarth';
+    font-weight: lighter;
+}
+// ------------------------ EO SETTINGS

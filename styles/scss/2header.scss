@@ -1,0 +1,32 @@
+// ------------------------ HEADER
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+h2 {
+    line-height: 39px;
+    padding-top: 35px;
+    +img {
+        width: 84px;
+        height: 37px;
+        // transform:scale(0.13);
+        margin-top: 35px;
+    }
+}
+.top-border {
+    border-top: 7px solid black;
+}
+.triple {
+    position: relative;
+    border-top: 3px double black;
+    &::before {
+        content: '';
+        position: absolute;
+        border-top: 1px solid black;
+        width: 100%;
+        top: -5px;
+    }
+}
+// ------------------------ EO HEADER

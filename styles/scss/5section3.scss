@@ -1,0 +1,48 @@
+// ------------------------ SECTION 3
+#section3 {
+    margin-left: 50px;
+    @media screen and (max-height:790px) {
+        position: fixed;
+        bottom:60px;
+    }
+}
+#date {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+}
+.top, .bot{
+    & :first-child {
+        transform: translateY(300px);
+        animation: comeUp 0.5s forwards;
+        animation-delay: 4000ms;
+    }
+    & :last-child {
+        transform: translateY(-500px);
+        opacity: 0;
+
+    }
+}
+.debut {
+    animation: comeDown 2s forwards;
+    animation-delay: 6000ms;
+}
+.fin {
+    animation: comeDown 2s forwards;
+    animation-delay: 8000ms;
+}
+
+@keyframes comeUp {
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes comeDown {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+// ------------------------ EO SECTION 3

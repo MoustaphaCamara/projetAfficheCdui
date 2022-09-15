@@ -1,0 +1,71 @@
+// ------------------------ SECTION 2
+#section2 {
+    position: relative;
+    min-height: 250px;
+}
+.icons {
+    position: absolute;
+    // animation: fly 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite ;
+}
+// ADOBE
+#adobe {
+    width: 100px;
+    top: 200px;
+    left: 700px;
+    animation: fly1 4s cubic-bezier(.36,1.07,.43,-0.15) infinite;
+    scale: 1.5;
+    // animation-delay: 1000ms;
+}
+@keyframes fly1 {
+
+  to {
+  top: -150px;
+  left: -100px;
+  opacity: 0.5;
+  scale: 1;
+  }
+}
+
+// END OF ADOBE
+
+// CHROME
+#chrome {
+    width: 110px;
+    top: 450px;
+    left: 1503px;
+    animation: fly2 6s cubic-bezier(.36,1.07,.43,-0.15) infinite;
+    scale: 1.5;
+}
+@keyframes fly2 {
+
+  to {
+  top: -300px;
+  left: -700px;
+  opacity: 0.5;
+  scale: 1;
+  }
+}
+
+// END OF CHROME
+#tiktok {
+    width: 124px;
+    top: 650px;
+    left: 1803px;
+    animation: fly2 6s cubic-bezier(.36,1.07,.43,-0.15) infinite;
+    scale: 1.5;
+}
+#squid {
+    width: 120px;
+    top: 450px;
+    left: 1503px;
+    animation: fly2 8s cubic-bezier(.36,1.07,.43,-0.15) infinite;
+    scale: 1.5;
+}
+#fb {
+    width: 180px;
+    top: 450px;
+    left: 1503px;
+    animation: fly2 10s cubic-bezier(.36,1.07,.43,-0.15) infinite;
+    scale: 1.5;
+}
+// ------------------------ EO SECTION 2

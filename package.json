@@ -1,0 +1,15 @@
+{
+  "name": "basic-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "node-sass styles/scss/main.scss styles/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "--- ## Contexte",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

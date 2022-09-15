@@ -1,0 +1,3 @@
+couleur bleu 2FA8DF
+couleur noire 000000
+couleur rose E85999
